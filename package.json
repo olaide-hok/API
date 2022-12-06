@@ -1,10 +1,11 @@
 {
-  "name": "typescript-project",
+  "name": "A Simple To-Do API",
   "version": "1.0.0",
-  "description": "A typescript project with nodejs and expressjs",
+  "description": "A Simple To-Do API built with typescript using nodejs and expressjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
   },
   "author": "Habeeb Kareem",
   "license": "ISC",
